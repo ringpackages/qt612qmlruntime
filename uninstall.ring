@@ -1,4 +1,7 @@
 func main
+	if not isWindows()
+		return
+	ok
 	? "Removing Files : Qt 6.12 QML runtime"
 	cDir = CurrentDir()
 	chdir(exefolder()+"../bin")
